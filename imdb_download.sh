@@ -1,4 +1,14 @@
 #!/bin/bash
+# ----------------------------------------
+# IMDb → PlayIMDb Automated Movie Downloader
+# Author: Nuwan Kaushalya
+#
+# Features:
+# - Converts IMDb URLs to PlayIMDb
+# - Extracts HLS stream using Puppeteer
+# - Downloads via FFmpeg with clean progress
+# - Auto installs required dependencies
+# ----------------------------------------
 
 URL="$1"
 
